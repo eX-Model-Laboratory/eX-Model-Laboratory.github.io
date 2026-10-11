@@ -1,4 +1,66 @@
 <!DOCTYPE html>
-<html>
-<body>Work In Progress</body>
+<html id="index">
+<head>
+<title>Home Page</title>
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="icon" href="/logo.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <ol>
+                <li><a class="active" href="index.html">Home Page</a></li>
+                <li><a href="projects.html">Our Projects</a></li>
+                <li><a href="other.html">Other Things</a></li>
+            </ol>
+        </nav>
+    </header>
+<main>
+<section id="home">
+    <h1>
+        Welcome to X-Model Laboratory!
+    </h1>
+    <p>We are eXtreme Model Laboratory, or XML for short, an aerospace and aeronautics organization/club at the Univerity of Texas at Austin.</p>
+    <p>Our areas of interest: </p>
+    <img class="rocket" src="logo.png" alt="eX Model Laboratory"/>
+    <ul class="features">
+        <li>Model rockets</li>
+        <li>Model planes</li>
+        <li>Model hot air baloons</li>
+        <li>Drone flight simulations</li>
+        <li>Space pictures processing</li>
+        <li>Programming</li>
+        <li>Mini projects throughout the year</li>
+        <li>And more!</li>
+    </ul>
+    <button onclick="redirectToProjects()">Learn more about our current projects!</button>
+</section>
+<section>
+    <h1>Meetings, Membership Info, and Schedule</h1>
+    <p>We hold weekly meetings from 7 to 8pm every Friday! (Come early). Room details TBA, so for now we announce it every week in our discord.</p>
+    <p>No membership fee required! Just show up to our meetings regularly and you will be considered an active member of our club.</p>
+    <p>Schedule TBA</p>
+</section>
+<section>
+    <h1>Socials and Contacts</h1>
+    <p>Links to our social media:</p>
+    <p><a class="socials" href="https://discord.gg/9QaKCKCt62" target="_blank">Join our Discord Server</a></p>
+    <p><a class="socials" href="https://github.com/eX-Model-Laboratory" target="_blank">Here's our Github Organization</a></p>
+    <p><a class="socials" href="https://www.instagram.com/exmlab?dlrf=MTllMTc1NXVkZDFzNg==" target="_blank">Our Instagram Page</a></p>
+    <p>To contact us directly you can also email here: exmlaboratory@gmail.com</p>
+</section>
+</main>
+
+<img src="star.gif" style="position: absolute; top: 5%; width: 10%; left: 1%;">
+<!-- <img src="star.gif" style="position: absolute; top: 5%; width: 10%; right: 0%;"> -->
+<!-- <img src="star.gif" style="position: absolute; top: 45%; width: 10%;"> -->
+<img src="star.gif" style="position: absolute; top: 45%; width: 10%; right: 1%;">
+<img src="star.gif" style="position: absolute; top: 68%; width: 10%; left: 1%";>
+<!-- <img src="star.gif" style="position: absolute; top: 68%; width: 10%; right: 0%;"> -->
+<script>
+    function redirectToProjects() {
+        window.location.href = "projects.html";
+    }
+</script>
+</body>
 </html>

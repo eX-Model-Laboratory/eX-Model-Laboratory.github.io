@@ -1,0 +1,159 @@
+html#index {
+  box-sizing: border-box;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    box-shadow: inset 0 0 0 1000px rgba(178, 100, 6, 0.2);
+    background-image: url("space_pic1.png");
+    z-index: -1;
+    background-size: 90%;
+  }
+}
+
+html#projects {
+  box-sizing: border-box;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    box-shadow: inset 0 0 0 1000px rgba(178, 100, 6, 0.2);
+    background-image: url("rockets2.jpg");
+    z-index: -1;
+    background-size: 90%;
+  }
+}
+
+
+body {
+    font-family: "Georgia", sans-serif;
+    font-size: 110%;
+    background-color: #ffeab7;
+    margin: 0;
+    /* background-image: url("rockets2.jpg"); */
+}
+
+section {
+    max-width: 80%;
+    margin: 30px auto;
+    background: rgb(245, 240, 229);
+    padding: 25px;
+    border-radius: 6px;
+}
+
+section#home {
+    margin-top: 80px;
+}
+
+h1 {
+    font-family: "Georgia", sans-serif;
+    color: #CC6B5E;
+    margin: 0;
+    padding: 5px;
+}
+h2 {
+    font-family: "Georgia", sans-serif;
+    font-size: 120%;
+    color: #F2B47C;
+    margin: 3px;
+    padding: 2px;
+}
+h3 {
+    font-family: "Georgia", sans-serif;
+    font-size: 140%;
+    color: #CC6B5E;
+    margin: 3px;
+    padding: 0;
+}
+
+button {
+    background: #F2B47C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #c5b8ea;
+}
+
+.spacePic {
+    display: block;
+    margin: auto;
+    max-width: 65%;
+}
+
+
+.rocket {
+  width: 380px;
+  height: 380px;
+  margin-right: 1.5%;
+  margin-top: -8%;
+  padding: 0;
+  float: right;
+}
+
+.star1 {
+  width: 400px;
+  height: 400px;
+  margin-right: 0;
+  margin-top: 0;
+  padding: 0;
+  float: left;
+}
+
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+ol li {
+  float: left;
+}
+
+ol li a {
+  display: block;
+  color: #773026;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+ol li a:hover:not(.active) {
+  background-color: #c5b8ea;
+}
+
+ol li a.active {
+  background-color: #F2B47C;
+}
+
+.socials {
+    color: #773026;
+    background-color: #c5b8ea;
+    text-decoration: none;
+}
+
+.intextlink {
+    color: #773026
+}
